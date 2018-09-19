@@ -92,11 +92,11 @@ To run locally, do the usual:
 
     ./manage.py update_metrics
 
-#. Point the ``www.djangoproject.test``, ``docs.djangoproject.test`` and ``dashboard.djangoproject.test``
+#. Point the ``www.djangoproject.example``, ``docs.djangoproject.example`` and ``dashboard.djangoproject.example``
    hostnames with your ``/etc/hosts`` file to ``localhost``/``127.0.0.1``.
    Here's how it could look like::
 
-     127.0.0.1  docs.djangoproject.test www.djangoproject.test dashboard.djangoproject.test
+     127.0.0.1  docs.djangoproject.example www.djangoproject.example dashboard.djangoproject.example
 
    If you're on Mac OS and don't feel like editing the ``/etc/hosts`` file
    manually, there is a great preference pane called `Hosts.prefpane`_. On
@@ -122,8 +122,8 @@ To run locally, do the usual:
 
    This runs both the main site ("www") as well as the
    docs and dashboard site in the same process.
-   Open http://www.djangoproject.test:8000/, http://docs.djangoproject.test:8000/
-   or http://dashboard.djangoproject.test:8000/.
+   Open http://www.djangoproject.example:8000/, http://docs.djangoproject.example:8000/
+   or http://dashboard.djangoproject.example:8000/.
 
 Running the tests
 -----------------

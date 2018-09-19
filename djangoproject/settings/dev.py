@@ -1,10 +1,10 @@
 from .common import *  # noqa
 
 ALLOWED_HOSTS = [
-    'www.djangoproject.test',
-    'djangoproject.test',
-    'docs.djangoproject.test',
-    'dashboard.djangoproject.test',
+    'www.djangoproject.example',
+    'djangoproject.example',
+    'docs.djangoproject.example',
+    'dashboard.djangoproject.example',
 ] + SECRETS.get('allowed_hosts', [])
 
 DEBUG = True
@@ -32,7 +32,7 @@ DOCS_BUILD_ROOT = DATA_DIR.joinpath('djangodocs')
 
 # django-hosts settings
 
-PARENT_HOST = 'djangoproject.test:8000'
+PARENT_HOST = 'djangoproject.example:8000'
 
 # django-push settings
 
